@@ -42,7 +42,7 @@ function App() {
     localStorage.setItem("todos", JSON.stringify(todos));
   }, [todos])
 
-  return (
+  return ( 
     <>
       <Navbar/>
       <AddTodo addTodo={addTodo} />
