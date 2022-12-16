@@ -5,7 +5,6 @@ import Todos from './Components/Todos';
 import React, { useState, useEffect } from 'react';
 import AddTodo from './Components/AddTodo';
 
-
 function App() {
   let initTodo;
   if (localStorage.getItem("todos") === null) {
